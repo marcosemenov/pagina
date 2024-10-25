@@ -1,0 +1,31 @@
+.linhaQuemSomos{
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	margin-top: 30px;
+}
+
+.linhaQuemSomos img{
+	width: 100%;
+	height: 300px;
+}
+
+.texto h2{
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+.texto h3{
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+.texto p{
+	font-size: 15px;
+	text-align: justify;
+	margin-bottom: 40px;
+}
+/*alteração da main sobrescrevendo o código do estilo*/
+main{
+	width: 100%;
+	min-height: 400px;/*define a altura minima do elemento*/
+	background: #fff; 
+}
